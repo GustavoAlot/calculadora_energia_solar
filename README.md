@@ -1,4 +1,4 @@
-# 🌞 Fazer simulação de producção de Energia Solar baseado na sua localizacao
+# 🌞 Producção de Energia Solar baseado na sua localização
 
 Este é um **Simulador de Produção de Energia Solar**, que calcula a geração média de energia solar em kWh com base em informações fornecidas pelo usuário, como localização geográfica e características dos painéis solares. O simulador utiliza dados da API **NASA POWER** para fornecer estimativas realistas.
 
