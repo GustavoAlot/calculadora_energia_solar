@@ -1,55 +1,85 @@
-# 🌞 Producção de Energia Solar baseado na sua localização
+# 🌞 Simulador de Produção de Energia Solar
 
-Este é um **Simulador de Produção de Energia Solar**, que calcula a geração média de energia solar em kWh com base em informações fornecidas pelo usuário, como localização geográfica e características dos painéis solares. O simulador utiliza dados da API **NASA POWER** para fornecer estimativas realistas.
+Este é um **Simulador de Produção de Energia Solar**, que calcula a geração média de energia solar (kWh) com base na sua localização geográfica e nas características dos painéis solares. O projeto utiliza a API **NASA POWER** para obter estimativas reais de irradiação solar.
 
-## 🖼️ Visite o Simulador
-[Acesse aqui o projeto hospedado na Vercel](https://www.simularproducaoenergiasolar.tech/)
-
----
-
-## 🚀 Funcionalidades
-
-- 📍 Uso da localização geográfica (latitude/longitude) do usuário.
-- ⚡ Cálculo de produção diária e mensal com base na irradiação solar média da região.
-- 📊 Interface responsiva, funcionando em desktops e dispositivos móveis.
-- 🎨 Design visual animado, incluindo:
-  - Um sol dinâmico que se move com o scroll.
-  - Fundo ajustável e animado que imita o nascer e o pôr do sol.
-- 🖩 Simulação com dados personalizáveis:
-  - Quantidade de painéis.
-  - Potência de cada painel solar.
+## 🖼️ Visite o Simulador  
+🔗 **[Acesse o projeto hospedado na Vercel](https://www.simularproducaoenergiasolar.tech/)**  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Funcionalidades  
 
-### **Frontend**
-- **React.js**: Biblioteca para criação da interface do usuário.
-- **CSS**: Estilização com foco em responsividade e animações.
-- **Vercel**: Hospedagem do projeto com links gratuitos.
+### 🔢 **Cálculo Personalizado de Produção Solar**  
+✔️ Entrada de dados como **latitude, longitude, quantidade e potência dos painéis solares**.  
+✔️ Obtenção automática da localização atual do usuário.  
+✔️ Uso de dados da **NASA POWER API** para cálculos precisos de geração de energia.  
 
-### **APIs**
-- **NASA POWER API**: Obtenção de dados climáticos e irradiação solar média para cálculos precisos.
+### 🎨 **Visual Dinâmico e Interativo**  
+🌅 **Background 3D animado**:  
+- O **sol se move dinamicamente** ao longo do dia, simulando um arco no céu.  
+- A **cor do céu muda gradualmente**, imitando o nascer e o pôr do sol.  
+- 🌙 **Estrelas aparecem automaticamente à noite** e somem ao amanhecer.  
 
----
+💡 **Iluminação Realista**:  
+- O **painel solar projeta sombras** sobre a grama conforme o sol se move.  
+- A luz do sol **muda de cor e intensidade** ao longo do dia.  
+- Durante a noite, uma iluminação suave simula o brilho noturno.  
 
-## 📝 Como Usar
-
-1. Acesse o simulador [neste link](https://spes-git-main-gustavo-fernandezs-projects-8e993dbf.vercel.app/).
-2. Preencha os campos no formulário:
-   - Quantidade de painéis solares.
-   - Potência de cada painel solar (em Watts).
-   - Latitude e longitude do local desejado (ou use sua localização atual).
-3. Clique em "Simular".
-4. Veja os resultados detalhados da produção de energia:
-   - Irradiação solar média (kWh/m²/dia).
-   - Produção diária (kWh).
-   - Produção mensal (kWh).
-
+📱 **Interface Responsiva**:  
+- O site se adapta para **telas de celulares, tablets e desktops**.  
+- O formulário possui **efeito vidro (frosted glass)**, proporcionando um design moderno e sofisticado.  
 
 ---
 
-## ✨ Autor
-**Gustavo Fernandez**
+## 🛠️ Tecnologias Utilizadas  
 
-- [LinkedIn](https://www.linkedin.com/in/gustavo-fernandez-375860235/)
+### **Frontend**  
+- **React.js** – Framework JavaScript para construção da interface.  
+- **React Three Fiber** – Renderização do ambiente 3D.  
+- **Three.js** – Manipulação avançada de iluminação e sombras.  
+- **CSS + Tailwind** – Estilização moderna com foco em animações e responsividade.  
+
+### **APIs & Serviços**  
+- 🌍 **NASA POWER API** – Obtenção de dados climáticos e irradiação solar média.  
+- ⚡ **Vercel** – Hospedagem gratuita para o projeto.  
+
+---
+
+## 📝 Como Usar  
+
+1️⃣ Acesse o simulador **[neste link](https://spes-git-main-gustavo-fernandezs-projects-8e993dbf.vercel.app/)**.  
+2️⃣ **Preencha os campos do formulário**:  
+   - Número de painéis solares.  
+   - Potência de cada painel (Watts).  
+   - Latitude e longitude (ou use a localização automática).  
+3️⃣ **Clique em "Simular"**.  
+4️⃣ **Veja os resultados** da sua produção solar:  
+   - Irradiação solar média (kWh/m²/dia).  
+   - Produção diária e mensal estimada.  
+
+---
+
+## 📸 Capturas de Tela  
+
+### ☀️ Durante o Dia  
+🔹 Sol no alto do céu, sombras projetadas no painel solar.  
+🔹 Céu gradualmente clareando até o meio-dia.  
+
+### 🌙 Durante a Noite  
+🔹 Estrelas começam a aparecer no céu.  
+🔹 O sol se põe e o ambiente fica iluminado por luz noturna.  
+
+---
+
+## ✨ Autor  
+**Gustavo Fernandez**  
+
+📩 Entre em contato:  
+[LinkedIn](https://www.linkedin.com/in/gustavo-fernandez-375860235/)  
+
+---
+
+## 🔧 Melhorias Futuras  
+- 📊 Gráficos interativos sobre produção de energia ao longo do ano.  
+- 🌍 Integração com mapas para facilitar a seleção da localização.  
+- 📱 Versão mobile aprimorada com interações otimizadas.  
