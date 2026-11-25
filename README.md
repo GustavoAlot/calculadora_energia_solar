@@ -3,7 +3,7 @@
 Este é um **Simulador de Produção de Energia Solar**, que calcula a geração média de energia solar (kWh) com base na sua localização geográfica e nas características dos painéis solares. O projeto utiliza a API **NASA POWER** para obter estimativas reais de irradiação solar.
 
 ## 🖼️ Visite o Simulador  
-🔗 **[Acesse o projeto hospedado na Vercel](https://www.simularproducaoenergiasolar.tech/)**  
+🔗 **[Acesse o projeto hospedado na Vercel](https://spes-git-main-gustavo-fernandezs-projects-8e993dbf.vercel.app)**  
 
 ---
 
